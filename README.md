@@ -4,6 +4,6 @@ git pull origin master
 
 git add (files) ...
 
-git commit -m "Description des modifications"
+git commit -m "infos modifications"
 
 git push origin master
