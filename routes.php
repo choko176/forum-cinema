@@ -18,13 +18,16 @@ class Route {
         public function getController () {
 
             $controller = $this->formatUrl()[1];
+            $controllerPath = "controllers/".$controller.".php";
 
-           require_once "./controllers/users.php";
-           require_once "./controllers/topics.php";
-           require_once "./controllers/messages.php";
-           require_once "./controllers/messages_prives.php";
-  
+            if(file_exists($controllerPath)){
+               require_once $controllerPath;
+            }
+            else{
+            require_once "views/error.php";
+            }
+            }
+          
         }
-    }
 
  ?>

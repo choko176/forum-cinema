@@ -12,7 +12,6 @@ class Model {
 
   public function connect(){
     try {
-      // "mysql:host = localhost;dbname"
       $db = new PDO("mysql:host=".$this->host.";dbname=".$this->dbname, $this->user, $this->password);
       echo "connection</br >";
       return $db;
