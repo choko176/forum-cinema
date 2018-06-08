@@ -1,14 +1,21 @@
 <?php
 
-echo "tu as bien chargé tasks.php<br />";
+require_once "./models/model.php";
 
-require_once "models/tasks.php";
+class usersModel extends Model {
 
-// On va instancier notre TaskModel
-$tasks = new TaskModel();
+  public function getAll(){
 
-$taskListView = $tasks->getAll();
+  $db=parent::connect();
 
-require_once "views/tasks.php";
+
+  $sql= "select * from users";
+  $query= $db -> prepare ($sql);
+  $query -> execute ();
+  $userslist= $query -> fetchAll();
+  return $userslist;
+
+}
+}
 
  ?>

@@ -6,7 +6,7 @@
   </head>
   <body>
 
-<h1>Error 404</h1>
+   <h1>Bienvenue sur le forum du cinema</h1>
 
   </body>
 </html>
