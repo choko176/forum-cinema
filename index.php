@@ -12,6 +12,7 @@ session_start();
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<<<<<<< HEAD
 
     <link rel="stylesheet" type="text/css" href="/forum-cinema/css/index.css">
 
@@ -40,6 +41,36 @@ session_start();
 
    ?>
 
+=======
+    
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    
+    <title>Le forum du cinema</title>
+  </head>
+  <body>
+<!--    <h1>ceci est la page d'index</h1>-->
+    
+    <?php
+
+   require_once "includes/header.php";
+
+   ?>
+   <div class="content">
+    
+    <?php
+       
+       require_once "server.php";
+
+   ?>
+    
+    </div>
+    <?php
+       
+       require_once "includes/footer.php";
+
+   ?>
+    
+>>>>>>> b7e874d721abc4362e9d574d03d37c0d3a4985ef
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -47,4 +78,8 @@ session_start();
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> b7e874d721abc4362e9d574d03d37c0d3a4985ef

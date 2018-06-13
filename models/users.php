@@ -14,7 +14,11 @@ class users extends Model {
 
     return $usersList;
   }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b7e874d721abc4362e9d574d03d37c0d3a4985ef
     //public function connexion() {
 
     //$db = parent::connect(); //return $db
@@ -26,7 +30,11 @@ class users extends Model {
     //$query->execute();
     // return $this->getAll();
            // }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> b7e874d721abc4362e9d574d03d37c0d3a4985ef
      public function login($email,$mdp){
         $this->db->query('select * from users where email = :email and mdp = :mdp');
         //Bind values
