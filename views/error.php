@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
 
-<h1>Error 404</h1>
 
-  </body>
-</html>
+
+<div class="404">
+  <h1>Error 404</h1>
+   <img src="/forum-cinema/css/img/404-1.jpg">
+</div>
