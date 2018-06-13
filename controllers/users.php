@@ -1,5 +1,6 @@
 <?php
 
+
 require_once "./models/model.php";
 
 class usersModel extends Model {
@@ -17,5 +18,6 @@ class usersModel extends Model {
 
 }
 }
+
 
  ?>
