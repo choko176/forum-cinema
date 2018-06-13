@@ -6,7 +6,7 @@ class Route {
             $url = $_SERVER["PATH_INFO"];
           }
           else {
-            $url = "/";
+            $url = "/index/";
           }
             $urlTrim = trim($url, "/");
             $urlTab = explode("/", $url);
@@ -27,7 +27,7 @@ class Route {
             require_once "views/error.php";
             }
             }
-          
+
         }
 
  ?>
