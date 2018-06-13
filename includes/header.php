@@ -1,21 +1,10 @@
 <header>
-<<<<<<< HEAD
 
     <h1 class="logo"></h1>
 
 </header>
 
 
-
-=======
-    
-    <h1 class="logo"></h1>
-    
-</header>
- 
-
- 
->>>>>>> b7e874d721abc4362e9d574d03d37c0d3a4985ef
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
 <!--  <a class="navbar-brand" href="#">Navbar</a>-->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +19,6 @@
         <a class="nav-link" href="#">Profil</a>
       </li>
       <li class="nav-item">
-<<<<<<< HEAD
         <a class="nav-link" href="#">Messages privés</a>
       </li>
       <li class="nav-item">
@@ -39,13 +27,3 @@
     </ul>
   </div>
 </nav>
-=======
-        <a class="nav-link" href="#">Message prive</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Deconexion</a>
-      </li>
-    </ul>
-  </div>
-</nav>
->>>>>>> b7e874d721abc4362e9d574d03d37c0d3a4985ef

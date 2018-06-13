@@ -14,8 +14,5 @@
       </div>
   </div>
   <button type="submit" class="btn btn-primary">Sign in</button>
-<<<<<<< HEAD
+
 </form>
-=======
-</form>
->>>>>>> b7e874d721abc4362e9d574d03d37c0d3a4985ef
