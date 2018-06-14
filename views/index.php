@@ -22,7 +22,7 @@
       </small>
       </div>
       <button type="submit" name="connexion" class="btn btn-primary">Submit</button>
-<button type="button" href="localhost/forum-cinema/views/inscription.php" class="btn btn-danger">inscription</button>
+<a href="http://localhost/forum-cinema/index.php/inscription"><button type="button" class="btn btn-danger">inscription</button></a>
       </form> ';}
 
 

@@ -5,7 +5,7 @@
 class Model {
 
   private $user = "root";
-  private $password = "";
+  private $password = "root";
   private $dbname = "forum_cinema";
   private $host = "localhost";
   private $port = 3306;

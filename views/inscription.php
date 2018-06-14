@@ -12,7 +12,7 @@
       <label for="inputEmail4">Pseudo</label>
       <input type="text" class="form-control" id="inputpseudo4" placeholder="Pseudo">
       </div>
-  </div>
+  </div><br/>
   <button type="submit" class="btn btn-primary">Sign in</button>
 
 </form>

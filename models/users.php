@@ -28,13 +28,15 @@ class users extends Model {
            // }
 
      public function login($email,$mdp){
-        $this->db->query('select * from users where email = :email and mdp = :mdp');
+         $db = parent::connect();
+        $sql=$db->query('select * from users where email = :email and mdp = :mdp');
         //Bind values
-        $this->db->bind('email', $email);
-        $this->db->bind('mdp', $mdp);
-        $result = $this->db->single();
+         $query = $db->prepare($sql);
+        $query->bindValue('email', $email);
+        $query->bindValue('mdp', $mdp);
+        $result = $query->fetchAll();
         //check result
-        if($this->db->rowCount()>0){
+        if($query->rowCount()>0){
             $this->setUserData($result);
             return true;
         } else {

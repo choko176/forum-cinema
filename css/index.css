@@ -22,13 +22,14 @@ footer {
     display: flex;
     background-position: center;
     background-size: contain;
+    bottom: 0px;
 }
 
 .content {
     background-image: url(img/content.jpg);
     background-position: center;
     background-size: contain;
-    height: 500px;
+    min-height: 500px;
 }
 
 .404 {
@@ -42,5 +43,17 @@ footer {
 
 .index form {
     width: 400px;
+    margin: 0 auto;
+}
+
+.inscription {
+    width: 40%;
+    margin: 0 auto;
+}
+
+form.inscription .form-row {
+    display:inline;
+} 
+.form-group{
     margin: 0 auto;
 }
